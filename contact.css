@@ -59,10 +59,20 @@ footer  {
   text-align: center;
 }
 @media ( min-width :320px) and ( max-width: 740px)  {
-  iframe , address , form{
+header img {
+  position: relative;
+  left: 20%;
+}
+ address , form{
     width: 23%;
-    display: inline;
 
   }
-
+iframe{
+  width: 50%;
+  height: 30%;
+}
+address{
+  position: relative;
+  left: 40%;
+}
 }
