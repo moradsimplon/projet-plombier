@@ -20,8 +20,35 @@ li{
   margin-right: 20px;
   font-size: 25px;
 }
+a {
+  text-decoration: none;
+  color: black;
+  background-color: silver;
+  border: 1px solid grey ;
+  border-radius: 2px;
+}
+
 /*fin de haut de page */
 /*debut partie centrale */
+iframe{
+  position: relative;
+  left: 350px;
+}
+section h4 , section address {
+  margin-top: 30px;
+  text-align: center;
+}
+form {
+  width: 180px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  left: 550px;
+  margin-top: 50px;
+}
+.message {
+  height: 150px;
+}
 /*fin de partie centrale */
 /*debut partie footer */
 footer nav {

@@ -4,6 +4,13 @@
 body {
 background: -webkit-linear-gradient(right , red, yellow)
 }
+a {
+  text-decoration: none;
+  color: black;
+  background-color: silver;
+  border: 1px solid grey ;
+  border-radius: 2px;
+}
 /* haut de pages */
 header img {
   position: relative;
