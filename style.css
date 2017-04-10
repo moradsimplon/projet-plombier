@@ -1,98 +1,115 @@
-*{
-  font-family: 'Bangers', cursive;
+* {
+    font-family: 'Bangers', cursive;
 }
+
 body {
-background: -webkit-linear-gradient(right , red, yellow)
+    background: -webkit-linear-gradient(right, red, yellow)
 }
+
 a {
-  text-decoration: none;
-  color: black;
-  background-color: silver;
-  border: 1px solid grey ;
-  border-radius: 2px;
+    text-decoration: none;
+    color: black;
+    background-color: silver;
+    border: 1px solid grey;
+    border-radius: 2px;
 }
+
 
 /* haut de pages */
+
 header img {
-  position: relative;
-  left : 190px;
-  height: 10%;
-  width: 70%;
+    position: relative;
+    left: 190px;
+    height: 10%;
+    width: 70%;
 }
+
 .titre {
-  text-align: center;
+    text-align: center;
 }
-li{
-  list-style: none;
-  display: inline;
-  margin-right: 20px;
-  font-size: 25px;
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
 }
+
+
 /*fin de haut de page */
+
+
 /* partie centrale */
+
 aside {
-  background-color: orange;
-  height: 70%;
-  width: 10%;
-  position: absolute;
-  right: 0;
+    background-color: orange;
+    height: 70%;
+    width: 10%;
+    position: absolute;
+    right: 0;
 }
+
 nav img {
-
-  height: 90px;
-  width: 90px;
-  display: block;
-  margin-top: 45px;
-  border-radius: 9px;
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin-top: 45px;
+    border-radius: 9px;
 }
+
 section {
-  margin-top: 50px;
-
+    margin-top: 50px;
 }
+
 .figure {
-  vertical-align: top;
-  background: grey;
+    vertical-align: top;
+    background: grey;
 }
+
 section figure {
-  display: inline-block;
-  width: 23%;
-  margin-top: 50px;
-
+    display: inline-block;
+    width: 23%;
+    margin-top: 50px;
 }
+
 figure img {
-  border-radius: 3px;
+    border-radius: 3px;
 }
+
 section p {
-  width: 50%;
-
+    width: 50%;
 }
+
+
 /*fin de partie centrale */
+
+
 /* debut partie pied de page */
+
 footer nav {
-  margin-top: 30px;
-
-}
-footer  {
-  text-align: center;
-
-}
-@media (min-width : 740px) and (max-width: 1024px) {
-  aside{
-    display: none;
-  }
-header img {
-  margin: auto;
-  position: relative;
-  left: 25%;
-}
-.EDF {
-  display: none;
-}
+    margin-top: 30px;
 }
 
-@media ( min-width :320px ) and ( max-width : 740px) {
-
-header nav {
-  display: none;
+footer {
+    text-align: center;
 }
+
+@media (min-width: 740px) and (max-width: 1024px) {
+    aside {
+        display: none;
+    }
+    header img {
+        margin: auto;
+        position: relative;
+        left: 25%;
+    }
+    .EDF {
+        display: none;
+    }
+}
+
+@media ( min-width :320px) and ( max-width: 740px) {
+    header nav {
+        display: none;
+    }
 }
