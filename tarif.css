@@ -36,6 +36,8 @@ section {
 th , td , table {
   border:2px solid black;
   text-align: center;
+  width: 80%;
+
 }
 .service {
   background: silver;
@@ -50,4 +52,18 @@ footer nav {
 }
 footer  {
   text-align: center;
+}
+@media ( min-width :740px) and ( max-width: 1024px) {
+  .materiel , .durée {
+    display: none;
+  }
+
+}
+@media ( min-width :320px) and ( max-width: 740px) {
+  .materiel , .durée {
+    display: none;
+  }
+   td:nth-child(2n+2)  {
+    display: none;
+  }
 }
