@@ -44,6 +44,9 @@ section figure {
   width: 300px;
   margin-top: 50px;
 }
+figure img {
+  border-radius: 3px;
+}
 section p {
   width: 700px;
 }
