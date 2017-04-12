@@ -66,4 +66,8 @@ footer  {
    td:nth-child(2n+2)  {
     display: none;
   }
+  header img {
+    position: relative;
+    left: 15%;
+  }
 }
